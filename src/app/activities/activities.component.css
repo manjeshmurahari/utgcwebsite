@@ -1,15 +1,23 @@
-  
+  .bgcolor
+{
+    width: 100%;
+    height: auto;
+    /* background-image: linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background-image: linear-gradient(to right, #000066 0%, #cc00cc 100%);
+  }
 .mat-tab-label{
         background: aqua;
         color:blue;
         width: 60px;
         height: 50px;
         font-size: 20px;
+        background-image: linear-gradient(to right, #000066 0%, #cc00cc 100%);
        
       }
 .mat-tab-group.mat-primary .mat-ink-bar{
         background: brown;
         height: 5px;
+        background-image: linear-gradient(to right, #000066 0%, #cc00cc 100%);
       } 
 .img-container{
   width: 70%;
@@ -51,7 +59,7 @@ margin-top: 10px;
   padding: 2px;
   /* background-color: green; */
   transition: transform .4s;
- 
+  background-image: linear-gradient(to right, #000066 0%, #cc00cc 100%);                                                                                                                                                                                                                                                                                                                                                                                                                                                            
   margin: 0 auto;
   
 }
@@ -69,7 +77,8 @@ p {
   margin-left: 2%;
   margin-right: 2%;
   font-size: small;
-  font-family: Cursive;
-  color: wheat;
-  background-color: #2C1E59;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  color: white;
+  /* background-color: #2C1E59; */
 }

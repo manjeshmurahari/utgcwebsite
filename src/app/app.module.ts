@@ -37,6 +37,7 @@ import { FooterComponent } from './footer/footer.component';
 import {MatListModule} from '@angular/material/list';
 import { CardsComponent } from './cards/cards.component';
 import { PrayerrequestComponent } from './prayerrequest/prayerrequest.component';
+import { Utgc2006Component } from './utgc2006/utgc2006.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -53,7 +54,8 @@ import { PrayerrequestComponent } from './prayerrequest/prayerrequest.component'
     BotengComponent,
     FooterComponent,
     CardsComponent,
-    PrayerrequestComponent
+    PrayerrequestComponent,
+    Utgc2006Component
   ],
   imports: [
     BrowserModule,

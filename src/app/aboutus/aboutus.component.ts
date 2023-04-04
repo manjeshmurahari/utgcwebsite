@@ -35,7 +35,7 @@ export class AboutusComponent {
   openwomanFellowShipDialog() {
     const dialogRef = this.dialog.open(ActivitiesComponent,{
       width: '100%',
-      height: '98%' 
+      height: '100%' 
       
    
     });
