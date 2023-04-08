@@ -69,16 +69,16 @@ mat-grid-tile
   height: auto; */
 }
 .zoom {
-padding: 10%;
+padding: 2%;
 transition: transform .2s; /* Animation */
-width: 200px;
-height: 100px;
+width: auto;
+height: auto;
 /* background-color:red; */
 }  
 .shadowBox {
-border: 5px solid;
-padding: 4%;
-box-shadow: 5px 10px;
+border: 2px solid;
+padding: 2%;
+box-shadow: 2px 5px;
 
 }
 .zoom:hover {
@@ -153,6 +153,8 @@ color: white;
 .txtcenter
 {
   text-align: center;
+  color: white;
+  
 }
 
 .color{
@@ -174,7 +176,6 @@ color: white;
   /* background-color: red; */
  overflow-x: scroll;
  padding: 1px;
- /* font-size: smaller; */
 }
 
 #gradient {
@@ -190,4 +191,21 @@ color: white;
   color: white;
   
   background: linear-gradient(to right, rgb(1, 7, 31), rgba(255, 122, 89,0));
+}
+
+.para {
+  border-bottom: 2px solid #FDDF7F;
+   border-left: 4px solid #7ffda5;
+  position: static;
+  padding-left: 10px;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  
+  color:white;
+ 
+} 
+#gradient {
+  border-left: 10px solid #FDDF7F;
+  text-align: left;
+  color: white;
+  
 }

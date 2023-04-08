@@ -1,9 +1,9 @@
-/* .spacer{
+.spacer{
     flex: 1.1 auto; 
     padding: 20px;
-} */
+} 
 
-/* a {
+ a {
   padding: 10px 20px 15px 50px;
   font-size: xx-small;
    
@@ -16,7 +16,7 @@
      text-align: center; 
     color: white;
     
-  }  */
+  }  
  
   /* h1{
     font-family: Copperplate,Copperplate Gothic Light,fantasy; 
@@ -25,7 +25,7 @@
   .sizetxt{
     font-family: Copperplate,Copperplate Gothic Light,fantasy; 
     text-align: center;
-    font-size: x-large;
+    font-size: 22.8px;
     color: white;
 }
 .a {
@@ -42,11 +42,40 @@
   }
  .color{
     font-family: Copperplate,Copperplate Gothic Light,fantasy; 
-   
-    color: white;
+      color: white;
+      font-size: small;
   } 
   .mhover:hover{
     background-color: rgb(70, 132, 248);
     color: blue;
+  }
+  
+
+
+
+  .navbar{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  nav{
+    padding: 0;
+    font-size: 0;
+  }
+  
+  nav ul{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: #111;
+    margin: 0;
+  
+  }
+  
+  nav li{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12pt;
+    height: 50px;
+    
   }
   

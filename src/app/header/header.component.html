@@ -1,57 +1,151 @@
-
-
-<div  style="height: 14%; padding-top: 0.5%;background: linear-gradient(to right, #000066 0%, #cc00cc 100%);">
-<div >
+<!-- <div style="background: linear-gradient(to right, #0033cc 0%, #333300 100%);"  >
+      
+  <h1 class="sizetxt">We l c o m e&nbsp;&nbsp;&nbsp; T o<br> U n i t e d &nbsp;&nbsp;&nbsp;T e l u g u &nbsp;&nbsp;&nbsp;( తె లు గు ) &nbsp;&nbsp;&nbsp;  G o s p e l &nbsp;&nbsp;&nbsp;  C h u r c h   &nbsp;&nbsp;&nbsp;( U T G C )&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;A b u  &nbsp;&nbsp;&nbsp;D h a b i </h1>
   
-    <!-- <h1 class="sizetxt">W e l c o m e&nbsp;&nbsp;&nbsp; T o<br> U n i t e d &nbsp;&nbsp;&nbsp;T e l u g u &nbsp;&nbsp;&nbsp;( తె లు గు ) &nbsp;&nbsp;&nbsp;  G o s p e l &nbsp;&nbsp;&nbsp;  C h u r c h   &nbsp;&nbsp;&nbsp;( U T G C )&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;A b u  &nbsp;&nbsp;&nbsp;D h a b i </h1> -->
-    
-    
-    <h1 class="sizetxt"> {{"Welcome"| translate}} &nbsp;&nbsp;&nbsp;  {{"TO"| translate}} <BR>  {{"MSG1"| translate}} &nbsp;&nbsp;&nbsp; {{"MSG2"| translate}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{"MSG3"| translate}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{"MSG4"| translate}}&nbsp;&nbsp;&nbsp;{{"MSG5"| translate}}&nbsp;&nbsp;&nbsp; {{"CITY"| translate}}
-        <br>
+</div>-->
+<div> 
 
-    </h1>
-    <!-- <h1 class="sizetxt"> {{"Welcome"| translate}} &nbsp;&nbsp;&nbsp;  {{"TO"| translate}}</h1> -->
-    
+
+  <div class="container-fluid" style="background: linear-gradient(to right, #0033cc 0%, #333300 100%);">
+    <div class="row">
+        <div class="col-12">
+          <h1 class="sizetxt">We l c o m e&nbsp;&nbsp;&nbsp; T o<br> U n i t e d &nbsp;&nbsp;&nbsp;T e l u g u &nbsp;&nbsp;&nbsp;( తె లు గు ) &nbsp;&nbsp;&nbsp;  G o s p e l &nbsp;&nbsp;&nbsp;  C h u r c h   &nbsp;&nbsp;&nbsp;( U T G C )&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;A b u  &nbsp;&nbsp;&nbsp;D h a b i </h1>
+        </div>
+       
+    </div>
 </div>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary"  >
+  <div  style="width: 100%;  background: linear-gradient(to right, #0033cc 0%, #333300 100%);" >
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div style="width: 100%;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+          <a class="mhover" mat-button routerLink="homepage" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">Home</h5></a> 
+        </li>
+        <li class="nav-item">
+          <a  class="mhover" mat-button routerLink="aboutus" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">About Us</h5></a> 
+        </li>
+        <li class="nav-item">
+          <a class="mhover" mat-button routerLink="gallery" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Gallery</h5></a> 
+        </li>
+        <li class="nav-item">
+          <a class="mhover" mat-button routerLink="contactus" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Contact Us</h5></a> 
+        </li>
+        <li class="nav-item">
+          <a class="mhover" mat-button routerLink="boteng" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">BOT Members</h5></a> 
+        </li>
+        <li class="nav-item">
+          <a class="mhover"  mat-button (click)="useLanguage('en')"><h5 class="color">English </h5></a> 
+         
+        </li>
+        <li class="nav-item">
+          <a class="mhover" mat-button (click)="useLanguage('tg')"><h5 class="color">తె లుగు </h5></a> 
+         
+        </li> 
+        <li class="nav-item">
+          <a class="mhover" mat-button routerLink="prayerrequest" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Prayer Request</h5></a> 
+        </li>     
+      </ul>
+     
+    </div>
+  </div>
+</nav>
 </div>
-<!-- style="height: 4%;background: linear-gradient(to right, #000066 0%, #cc00cc 100%); -->
-<mat-toolbar  class="mat-elevation-z8" 
-style="height: 6%;margin-top: 0.02%; 
- background: linear-gradient(to right, #0033cc 0%, #333300 100%);
-;
-align-items: left;">
-<span class="flexExpand"></span>
-<a class="mhover" mat-button routerLink="homepage" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">Home</h5></a> 
-<a  class="mhover" mat-button routerLink="aboutus" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">About Us</h5></a> 
-<a class="mhover" mat-button routerLink="gallery" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Gallery</h5></a> 
-<a class="mhover" mat-button routerLink="contactus" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Contact Us</h5></a> 
-<a class="mhover" mat-button routerLink="boteng" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">BOT Members</h5></a> 
-<a class="mhover" mat-button routerLink="prayerrequest" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Prayer Request</h5></a> 
-<a class="mhover"  mat-button (click)="useLanguage('en')"><h5 class="color">English </h5></a> 
-<a class="mhover" mat-button (click)="useLanguage('tg')"><h5 class="color">తె లుగు </h5></a> 
+
+<!-- 
+<div class="row p-2" >   
+    <div class=" col-xl-12 ">
+        <div class="card">
+            <div class="card-body">
+              <mat-toolbar  class="mat-elevation-z8" 
+              style="height: 6%;margin-top: 0.02%; 
+               background: linear-gradient(to right, #0033cc 0%, #333300 100%);
+              ;
+              align-items: left;">
+              <span class="flexExpand"></span>
+              <a class="mhover" mat-button routerLink="homepage" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">Home</h5></a> 
+              <a  class="mhover" mat-button routerLink="aboutus" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">About Us</h5></a> 
+              <a class="mhover" mat-button routerLink="gallery" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Gallery</h5></a> 
+              <a class="mhover" mat-button routerLink="contactus" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Contact Us</h5></a> 
+              <a class="mhover" mat-button routerLink="boteng" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">BOT Members</h5></a> 
+              <a class="mhover" mat-button routerLink="prayerrequest" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Prayer Request</h5></a> 
+              <a class="mhover"  mat-button (click)="useLanguage('en')"><h5 class="color">English </h5></a> 
+              <a class="mhover" mat-button (click)="useLanguage('tg')"><h5 class="color">తె లుగు </h5></a> 
+              
+              
+              </mat-toolbar>
+            </div>
+          </div>
+    </div>
+    <div class="col-xl-12">
+        <div class="card">
+            <div class="card-body">
+              This is some text within a card body.
+            </div>
+          </div>
+    </div>
+    <div class=" col-xl-12 ">
+        <div class="card">
+            <div class="card-body">
+              This is some text within a card body.
+            </div>
+          </div>
+    </div>
+</div> -->
 
 
-</mat-toolbar>
-
+<!-- <div  style="height: 14%; padding-top: 0.5%;background: linear-gradient(to right, #000066 0%, #cc00cc 100%);">
+    <div >
+      
+        <h1 class="sizetxt">We l c o m e&nbsp;&nbsp;&nbsp; T o<br> U n i t e d &nbsp;&nbsp;&nbsp;T e l u g u &nbsp;&nbsp;&nbsp;( తె లు గు ) &nbsp;&nbsp;&nbsp;  G o s p e l &nbsp;&nbsp;&nbsp;  C h u r c h   &nbsp;&nbsp;&nbsp;( U T G C )&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;A b u  &nbsp;&nbsp;&nbsp;D h a b i </h1>
+        
+    </div>
+    </div> -->
+    <!-- style="height: 4%;background: linear-gradient(to right, #000066 0%, #cc00cc 100%); -->
+    <!-- <mat-toolbar  class="mat-elevation-z8" 
+    style="height: 6%;margin-top: 0.02%; 
+     background: linear-gradient(to right, #0033cc 0%, #333300 100%);
+    ;
+    align-items: left;">
+    <span class="flexExpand"></span>
+    <a class="mhover" mat-button routerLink="homepage" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">Home</h5></a> 
+    <a  class="mhover" mat-button routerLink="aboutus" ariaCurrentWhenActive="page" routerLinkActive="active"><h5 class="color">About Us</h5></a> 
+    <a class="mhover" mat-button routerLink="gallery" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Gallery</h5></a> 
+    <a class="mhover" mat-button routerLink="contactus" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Contact Us</h5></a> 
+    <a class="mhover" mat-button routerLink="boteng" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">BOT Members</h5></a> 
+    <a class="mhover" mat-button routerLink="prayerrequest" ariaCurrentWhenActive="page" routerLinkActive="active" ><h5 class="color">Prayer Request</h5></a> 
+    <a class="mhover"  mat-button (click)="useLanguage('en')"><h5 class="color">English </h5></a> 
+    <a class="mhover" mat-button (click)="useLanguage('tg')"><h5 class="color">తె లుగు </h5></a> 
     
-<!-- <mat-toolbar  class="mat-elevation-z8" style="height: 10%;background: linear-gradient(to right, #000066 0%, #cc00cc 100%);">
- 
-<div class="spacer"></div>
-<div class="title">
-    <h1 >Welcome To</h1>
-    <h1 > United Telugu(తెలుగు) Gospel Church,Abu Dhabi </h1>
-     {{'Welcome'| translate}}
-</div>
-<a mat-button routerLink="homepage" ariaCurrentWhenActive="page" routerLinkActive="active"><h2>Home</h2></a> 
-<a mat-button routerLink="aboutus" ariaCurrentWhenActive="page" routerLinkActive="active"><h2>About Us</h2></a> 
-<a mat-button routerLink="gallery" ariaCurrentWhenActive="page" routerLinkActive="active" ><h2>Gallery</h2></a> 
-<a mat-button routerLink="contactus" ariaCurrentWhenActive="page" routerLinkActive="active" ><h2>Contact Us</h2></a> 
-<a mat-button routerLink="boteng" ariaCurrentWhenActive="page" routerLinkActive="active" ><h2>BOT Members</h2></a> 
-<a mat-button><h2>Prayer Request</h2></a> 
-</mat-toolbar> -->
-
-
-
-
-
-
+    
+    </mat-toolbar> -->
+    
+        
+    <!-- <mat-toolbar  class="mat-elevation-z8" style="height: 10%;background: linear-gradient(to right, #000066 0%, #cc00cc 100%);">
+     
+    <div class="spacer"></div>
+    <div class="title">
+        <h1 >Welcome To</h1>
+        <h1 > United Telugu(తెలుగు) Gospel Church,Abu Dhabi </h1>
+         {{'Welcome'| translate}}
+    </div>
+    <a mat-button routerLink="homepage" ariaCurrentWhenActive="page" routerLinkActive="active"><h2>Home</h2></a> 
+    <a mat-button routerLink="aboutus" ariaCurrentWhenActive="page" routerLinkActive="active"><h2>About Us</h2></a> 
+    <a mat-button routerLink="gallery" ariaCurrentWhenActive="page" routerLinkActive="active" ><h2>Gallery</h2></a> 
+    <a mat-button routerLink="contactus" ariaCurrentWhenActive="page" routerLinkActive="active" ><h2>Contact Us</h2></a> 
+    <a mat-button routerLink="boteng" ariaCurrentWhenActive="page" routerLinkActive="active" ><h2>BOT Members</h2></a> 
+    <a mat-button><h2>Prayer Request</h2></a> 
+    </mat-toolbar> -->
+    
+    
+    
+    
+    
+    

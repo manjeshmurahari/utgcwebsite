@@ -7,8 +7,8 @@ import {TranslateService} from "@ngx-translate/core";
 })
 export class HeaderComponent {
   constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
-    translate.use('en');
+    translate.setDefaultLang('tg');
+    translate.use('tg');
   }
   useLanguage(language: string): void {
     this.translate.use(language);
