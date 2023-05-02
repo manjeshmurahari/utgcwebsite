@@ -38,6 +38,8 @@ import {MatListModule} from '@angular/material/list';
 import { CardsComponent } from './cards/cards.component';
 import { PrayerrequestComponent } from './prayerrequest/prayerrequest.component';
 import { Utgc2006Component } from './utgc2006/utgc2006.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +69,7 @@ import { Utgc2006Component } from './utgc2006/utgc2006.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatExpansionModule,
     MatCardModule,
     MatTableModule,
     MatSidenavModule,

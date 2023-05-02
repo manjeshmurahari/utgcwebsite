@@ -1,101 +1,142 @@
 <div class="bgcolor" >
 
 
-<div class="row g-4 py-2 row-cols-1 row-cols-lg-1" 
-style="background: linear-gradient(to right, #000066 0%, #cc00cc 100%); border:blank;" >
-  <div class="feature col">
-     <h3 class="fs-4" style="color: white;">{{ "LABELMOTTO" | translate }}</h3>
-    <p>Our motto is 'Unfold to the Untold'</p>
-  </div>
-  <div class="feature col">
-    <h3 class="fs-4" style="color: white;">{{"LABELMEANS"| translate}}</h3>
-    <p>{{"moto"| translate}}</p>
-   </div>
-  <div class="feature col">
-    <h3 class="fs-4" style="color: white;">{{"LABELHISTORY"| translate}}</h3>
-    <p>{{"HISTORY"| translate}}</p>
-  </div>
-</div>
-
-
-
-
-
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1" 
- style="background: linear-gradient(to right, #000066 0%, #cc00cc 100%); border:blank;" >
-  <div class="col d-flex align-items-start">
-    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
-    <div>
-      <button class="button1" (click)="openDialog()" >{{"EARLYDAYS"| translate}} </button>
+  <div class="row g-4 py-2 row-cols-1 row-cols-lg-1" 
+  style="background: linear-gradient(to right, #000066 0%, #cc00cc 100%); border:blank;" >
+    <div class="feature col">
+       <h3 class="fs-4" style="color: white;">{{ "LABELMOTTO" | translate }}</h3>
+        <p>{{"MOTOTXT"| translate}}</p> 
     </div>
+    <div class="feature col">
+      <h3 class="fs-4" style="color: white;">{{"LABELMEANS"| translate}}</h3>
+      <p>{{"moto"| translate}}</p>
+     </div>
+    <!-- <div class="feature col">
+      <h3 class="fs-4" style="color: white;">{{"LABELHISTORY"| translate}}</h3>
+      <p>{{"HISTORY"| translate}}</p>
+    </div> -->
   </div>
-  <div class="col d-flex align-items-start">
-    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
-    <div>
-     <button class="button2">   {{"UTGCINTEC"| translate}}</button>
-    </div>
-  </div>
-  <div class="col d-flex align-items-start">
-    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
-    <div>
-      <button class="button4" (click)="openwomanFellowShipDialog()">  {{"OURMINISTRY"| translate}} </button>
-    </div>
-  </div>
-  <div class="col d-flex align-items-start">
-    <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
-    <div>
-      <button class="button3">{{"AFTER2006"| translate}} </button>
-    </div>
-  </div>
- </div>
-
- <div class="container px-3 py-1" id="custom-cards" 
- style="background: linear-gradient(to right, #000066 0%, #cc00cc 100%); border:blank;">
-   <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
     <div class="col">
-      <div class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-        <div class="d-flex flex-column h-50 p-1 pb-1 text-white text-shadow-1">
-          <img  src=" /assets/images/pastor.jpg"> 
-          <div id="gradient" style="padding-top: 1%; ">
-            "Gospel?"
-         </div>
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <img  src=" /assets/images/pastorgaru.jpg"> 
+          <br>
+          <span style="text-align: center;">{{"GOSPAL"| translate}}</span>
+            
+         
          <br>
-         “Gospel” actually means. The word itself comes from a Greek word euangelion, which literally means “good news.” In the New Testament, it refers to the announcement that Jesus has brought the reign of God to 
-    our world through his life, death, and resurrection from the dead.
+         <span style="font-size: 13px; text-align: justify;">  {{"GOSPAL_TXT"| translate}}</span>
         </div>
       </div>
-    </div> 
-    
-    
-    <div class="col">
-      <div class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-        <div class="d-flex flex-column h-50 p-1 pb-1 text-white text-shadow-1">
-          <img  src=" /assets/images/pastor.jpg"> 
-       </div>
-       <div class="d-flex flex-column h-50 p-1 pb-1 text-white text-shadow-1">
-          <img  src=" /assets/images/pastor.jpg" style=" height:70% ;width:80%; margin-left: 10%;" > 
-       </div>
-    </div> 
     </div>
-     <div class="col">
-         <div class="card card-cover h-70 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-         style="background: linear-gradient(to right, #000066 0%, #cc00cc 100%);">
-           <div class="d-flex flex-column h-100 p-2 pb-2 text-white text-shadow-1">
-             <div id="gradient" style="width: 100%;">
-               <b>Service Timings</b></div><br>
-               {{"SUNDAYWORSHIP"| translate}}<br>{{"COMMUNION"| translate}}
-               <br>
-              <br>{{"FASTINGPRAYER"| translate}}
-              <br><br>  {{"WOMANSPRAYERMEETING"| translate}}
-               <br> <br>{{"MENSPRAYERMEETING"| translate}} 
-               <br><br> {{"ALLNIGHTPRAYER"| translate}}
-               <br><br>  {{"KIDSMINISTRY"| translate}}
-             </div>
-         </div>
-       </div>
-       
-     </div>
+  
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h5 style="text-align: center;">{{"CHURCHHIST"| translate}}</h5>
+          <span style="font-size: 13px; text-align: justify;">
+            {{"CHURCHHISTNFO"| translate}}<br><br>
+            {{"CHURCHHISTNFO1"| translate}}
+          
+        </span>
+          <br>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <span style="font-size: medium; text-align: center;">{{"EALDERSINFO"| translate}}</span>
+          <table style="font-size: 10px;" >
+            <tr>
+            <td> {{"NAME1"| translate}}</td>
+            <td>{{"NAME2"| translate}}</td>
+          </tr>
+          <tr>
+            <td>{{"NAME4"| translate}}</td>
+            <td>{{"NAME3"| translate}}</td>
+          </tr>
+          <tr>
+            <td>{{"NAME5"| translate}}</td>
+            <td>{{"NAME6"| translate}}</td>
+          </tr>
+          <tr>
+            <td>{{"NAME7"| translate}}</td>
+            <td>{{"NAME8"| translate}}</td>
+          </tr>
+          <tr>
+            <td>{{"NAME9"| translate}}</td>
+            <td>{{"NAME10"| translate}}</td>
+          </tr>
+          <tr>
+            <td>{{"NAME11"| translate}}</td>
+            <td>{{"NAME12"| translate}}</td>
+          </tr>
+          <tr>
+            <td>{{"NAME13"| translate}}</td>
+            <td>{{"NAME14"| translate}}</td>
+            </tr>
+          <tr>
+            <td>{{"NAME15"| translate}}</td>
+            <td>{{"NAME16"| translate}}</td>
+            </tr>
+          <tr>
+            <td>{{"NAME17"| translate}}</td>
+            <td>{{"NAME18"| translate}}</td>
+            </tr>
+          <tr>
+            <td>{{"NAME19"| translate}}</td>
+            <td>{{"NAME20"| translate}}</td>
+           </tr>
+           <tr>
+            <td>{{"NAME21"| translate}}</td>
+            <td></td>
+           </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-1" 
+   style="background: linear-gradient(to right, #000066 0%, #cc00cc 100%); border:blank;" >
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+        <use xlink:href="#bootstrap"></use></svg>
+      <div>
+        <button class="button1" (click)="openDialog()" >{{"EARLYDAYS"| translate}} </button>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+      <div>
+       <button class="button2">   {{"UTGCINTEC"| translate}}</button>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+      <div>
+        <button class="button4" (click)="openwomanFellowShipDialog()">  {{"OURMINISTRY"| translate}} </button>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+      <div>
+        <button class="button3" (click)="after2006()">{{"AFTER2006"| translate}} </button>
+      </div>
+    </div>
    </div>
- 
-
-   <app-footer></app-footer>
+     <app-footer></app-footer>
+  

@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./mainslideimages.component.css']
 })
 export class MainslideimagesComponent {
+  panelOpenState = false;
   constructor(private router:Router){}
   aboutus(){
     this.router.navigate(['/aboutus'])

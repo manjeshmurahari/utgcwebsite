@@ -186,7 +186,7 @@ color: white;
   font-size: 20px;
   vertical-align: middle;
   text-align: left;
-  max-width: 58%;
+  max-width: 100%;
   margin-left: 2%;
   color: white;
   
@@ -198,6 +198,7 @@ color: white;
    border-left: 4px solid #7ffda5;
   position: static;
   padding-left: 10px;
+  margin-left: 3px;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   
   color:white;
@@ -208,4 +209,13 @@ color: white;
   text-align: left;
   color: white;
   
+}
+
+.mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
